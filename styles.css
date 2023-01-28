@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Outfit&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --dark-blue: hsl(212, 21%, 14%);
+    --dark-grayish-blue: hsl(228, 12%, 48%);
+    --white: hsl(0, 0%, 100%);
+    --dark-cyan: hsl(158, 36%, 37%);
+    --cream: hsl(30, 38%, 92%);
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+body {
+    background-color: var(--cream);
+    font-family: "Montserrat", sans-serif;
+}
+
+.right-view {
+    width: 350px;
+    height: 469px;
+    background-color: var(--white);
+}
+
+img {
+    width: 350px;
+    height: 470px;
+}
+
+.container {
+    align-items: center;
+    border-radius: 0.625rem;
+    display: flex;
+    margin-bottom: 2rem;
+    height: calc(100vh-1px);
+    width: 700px;
+    height: 470px;
+    margin: 0 auto;
+    place-items: center;
+    /* to make div placed in center */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.heading p {
+    font-size: 20px;
+    letter-spacing: 4px;
+    padding: 20px 10px;
+    color: var(--dark-grayish-blue);
+}
+
+.brand-name p {
+    font-weight: 700px;
+    font-size: 25px;
+    padding-left: 10px;
+}
+
+.description p {
+    padding-top: 10px;
+    font-weight: 700px;
+    padding-left: 10px;
+}
+
+.cart {
+    margin-top: 20px;
+    height: 50px;
+    width: 250px;
+    background-color: green;
+    margin-left: 45px;
+    margin-right: 45px;
+    border-radius: 10px;
+    display: flex;
+}
+
+.cart-text p {
+    margin-top: 15px;
+    margin-left: 50px;
+}
+
+svg {
+    margin-top: 10px;
+    margin-left: 10px;
+    padding-left: 10px;
+}
