@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"name": "SSH FS - ttqc-shell005",
+			"uri": "ssh://ttqc-shell005/"
+		}
+	],
+	"settings": {}
+}

@@ -1,6 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Outfit&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Outfit&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
 
 * {
     padding: 0;
@@ -33,13 +31,14 @@ body {
 
 .right-view {
     width: 350px;
-    height: 469px;
-    background-color: var(--white);
+    height: 470px;
+
 }
 
 img {
     width: 350px;
     height: 470px;
+    border-radius: 10px 0 0 10px;
 }
 
 .container {
@@ -47,12 +46,13 @@ img {
     border-radius: 10px;
     display: flex;
     margin-bottom: 2rem;
-    height: calc(100vh-1px);
+    /* height: calc(100vh-1px); */
     width: 700px;
     height: 470px;
     margin: 0 auto;
     place-items: center;
     /* to make div placed in center */
+    background-color: var(--white);
     position: absolute;
     top: 50%;
     left: 50%;
@@ -62,18 +62,22 @@ img {
 .heading p {
     font-size: 20px;
     letter-spacing: 4px;
-    padding: 20px 10px;
+    padding: 20px 20px;
     color: var(--dark-grayish-blue);
+}
+
+.brand-name {
+    margin-left: 20px;
 }
 
 .brand-name p {
     font-weight: 700px;
     font-size: 25px;
-    padding-left: 10px;
+    marign: 10px;
 }
 
 .description {
-    padding: 10px;
+    padding: 10px 20px;
     color: var(--dark-grayish-blue);
     letter-spacing: 1px;
 }
@@ -103,6 +107,11 @@ img {
     margin-top: 10px;
     display: flex;
     padding-left: 10px;
+    align-items: center;
+}
+
+h4 {
+    color: var(--dark-grayish-blue);
 }
 
 .cart-text p {
@@ -117,7 +126,7 @@ svg {
 }
 
 h1 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Fraunces', sans-serif;
     /* font-family: 'Outfit', sans-serif; */
 }
 
